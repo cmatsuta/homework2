@@ -70,7 +70,28 @@
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#modalbutton">Submit</button>
+
+            <!-- Modal -->
+            <div class = "modal fade" id = "modalbutton" tabindex = "- 1" role = "dialog" aria-labelledby = "modalbutton" aria-hidden = "true">
+              <div class = "modal-dialog" role = "document">
+                <div class = "modal-content">
+                  <div class = "modal-header">
+                    <h5 class = "modal-title" id = "exampleModalLongTitle"> Information Submitted </h5>
+                    <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close">
+                      <span aria-hidden = "false"> × </span>
+                    </button>
+                  </div>
+                  <div class = "modal-body">
+                    <p> Thank you for your message.</p> <p>
+                  </p> </div>
+                  <div class = "modal-footer">
+                    <button type = "button" class = "btn btn-secondary" data-dismiss = "modal"> Close </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
       </form>
       
     </div>
