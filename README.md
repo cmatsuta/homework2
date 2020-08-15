@@ -5,6 +5,7 @@ Create responsive portfolio by using bootstrap
 ## About me
 Used navbar and grid system to write about my story.
 Uploaded the picture of me in the image file.
+Image file is stored in the `Assets/Images/portfolio` folder.
 
 ## Contact
 Used same navbar for index.html. Used one of forms from bootstrap.
@@ -13,6 +14,7 @@ Adjust the form style with css.
 ## Portfolio
 Used same navbar for index.html.
 Develop your portfolio.html with focusing on the responsive layout and images.
+Image file is stored in the `Assets/Images/portfolio` folder.
 
 ### Screenshots for the websites
 Large (992px)
